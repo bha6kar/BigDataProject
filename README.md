@@ -4,8 +4,7 @@
 To achieve this task I used dataframes of pyspark. First we need to filter the data from whole vout files which are based on wikileaks bitcoin address: **{1HB5XMLmzFVj8ALj6mfBsbifRoD4miY36v}**.
 
   
-After getting the filtered data of wikileaks address we made our first join of this filtered data
-with vin using txid with hash. 
+
 
 List of Top 10 Donors: For the confirmation of wallet the check has been done in https://www.blockchain.com with the transactions that this wallet is donating actually to wikileak or not and how much they have donated :
 
@@ -21,3 +20,10 @@ Rank | Wallet Address | Amount Donated (BitCoin) | Amount Donated GBP |
 | 8 | {19eXS2pE5f1yBggdwhPjauqCjS8YQCmnXa} | 576.835 | 1815490.10055 |
 | 9 | {1B9q5KG69tzjhqq3WSz3H7PAxDVTAwNdbV} | 556.7 | 1752118.611 |
 | 10 | {1AUGSxE5e8yPPLGd7BM2aUxfzbokT6ZYSq} | 500.0 | 1573665 |
+
+I found 1 wallet owner that belongs to Mt. Gox
+that’s address:{1LNWw6yCxkUmkhArb2Nf2MPw6vG7u5WG7q} highlighted in the table. Using https://www.blockchain.com/btc/address/1LNWw6yCxkUmkhArb2Nf2MPw6vG7u5WG7q
+
+This wallet has donated to wikileaks till 2014 is 1894.37418624 BitCoins.
+Rest wallet users are anonymous.
+
